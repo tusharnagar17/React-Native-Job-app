@@ -11,7 +11,6 @@ import useFetch from '../../../hook/useFetch'
 const Popularjobs = () => {
     const [selectedJob, setSelectedJob] = useState()
     const router = useRouter()
-    const [tushar, setTushar] = useState('tushar nagar')
     const { data, isLoading, error } = useFetch('search', {
         query: 'React Native',
         num_pages: 1,
@@ -20,7 +19,7 @@ const Popularjobs = () => {
     // console.log(data)
     // console.log(error)
 
-    function handleCardPress({ item }) {
+    function handleCardPress(item) {
         router.push(`/job-details/${item.job_id}`)
         setSelectedJob(item.job_id)
     }
