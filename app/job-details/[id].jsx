@@ -6,7 +6,7 @@ import { ScrollView, SafeAreaView } from 'react-native'
 import { useCallback, useState } from 'react'
 import useFetch from '../../hook/useFetch'
 import { COLORS, SIZES, icons } from '../../constants'
-import { JobAbout, Specifics } from '../../components/'
+import { JobAbout, JobFooter, Specifics } from '../../components/'
 import Footer from '../../components/jobdetails/footer/Footer'
 import Tabs from '../../components/jobdetails/tabs/Tabs'
 
@@ -103,7 +103,9 @@ const jobdetails = () => {
                     </View>
                 )}
             </ScrollView>
-            <Footer />
+            <JobFooter
+                url={data[0]?.job_google_link ?? 'https://careers.google.com/jobs/results/'}
+            />
         </SafeAreaView>
     )
 }
