@@ -9,15 +9,12 @@ import { useRouter } from 'expo-router'
 import useFetch from '../../../hook/useFetch'
 
 const Popularjobs = () => {
-    const [selectedJob, setSelectedJob] = useState()
+    const [selectedJob, setSelectedJob] = useState('')
     const router = useRouter()
     const { data, isLoading, error } = useFetch('search', {
         query: 'React Native',
         num_pages: 1,
     })
-
-    // console.log(data)
-    // console.log(error)
 
     function handleCardPress(item) {
         router.push(`/job-details/${item.job_id}`)

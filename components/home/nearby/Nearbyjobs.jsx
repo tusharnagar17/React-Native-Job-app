@@ -9,7 +9,7 @@ import { useRouter } from 'expo-router'
 import useFetch from '../../../hook/useFetch'
 
 const Nearbyjobs = () => {
-    const [selectedJob, setSelectedJob] = useState()
+    const [selectedJob, setSelectedJob] = useState('')
     const router = useRouter()
     const [tushar, setTushar] = useState('tushar nagar')
     const { data, isLoading, error } = useFetch('search', {
@@ -17,11 +17,8 @@ const Nearbyjobs = () => {
         num_pages: 1,
     })
 
-    // console.log(data)
-    // console.log(error)
-
     function handleCardPress({ item }) {
-        router.push(`/`)
+        router.push(`/job-details/${item.job_id}`)
         setSelectedJob(item.job_id)
     }
 
@@ -43,7 +40,7 @@ const Nearbyjobs = () => {
                     data?.map((job) => (
                         <NearbyJobCard
                             job={job}
-                            key={`/near-by-${job.job_id}`}
+                            key={`/nearby-job-${job.job_id}`}
                             handleNavigate={() => router.push(`/job-details/${job.job_id}`)}
                         />
                     ))
