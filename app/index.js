@@ -7,7 +7,6 @@ import { Welcome, Popularjobs, Nearbyjobs, ScreenHeaderBtn } from '../components
 const Home = () => {
     const router = useRouter()
     const [searchTerm, setSearchTerm] = useState('')
-
     return (
         <SafeAreaView style={{ backgroundColor: COLORS.lightWhite, flex: 1 }}>
             <Stack.Screen
