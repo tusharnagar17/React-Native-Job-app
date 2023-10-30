@@ -15,4 +15,4 @@ web-build/
 
 # extras
 .vscode
-
+.env
