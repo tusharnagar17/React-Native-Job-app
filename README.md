@@ -1,134 +1,209 @@
-# REACT NATIVE JOB APP
+<a name="readme-top"></a>
+
+<!-- [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+
+  <h3 align="center">React-native-job-app</h3>
+
+  <p align="center">
+    React-native-job-app is a app built with free RAPID API key. This app helps in listing jobs, search job and add them to favourites.
+    ..
+    <br />
+    <a href=""><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/tusharnagar17/React-Native-Job-app">View Demo</a>
+    ·
+    <a href="https://github.com/tusharnagar17/React-Native-Job-app/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/tusharnagar17/React-Native-Job-app/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+
+  </p>
+</div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#introduction">Introduction</a>
-    </li>
-    <li>
-      <a href="#features">Features</a>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
     </li>
-    <li>
-      <a href="#prerequisities">Prerequisites</a>
-    </li>
-    <li>
-      <a href="#installation">Installation</a>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-    </li>
-    <li>
-        <a href="#social">Socials</a>
-    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-## Introduction
-This projects is a React Native job application. Create this project to help learn basics of React Native. Learnt so far till now.
+<!-- ABOUT THE PROJECT -->
 
-# Demo
-The project that you have created using React Native is a job search platform that features various job opportunities, including part-time, full-time, and contract-based jobs. The platform allows job seekers to search for jobs based on their preferences and qualifications.
+## About The Project
 
-For each job listing, there is a detailed description that provides information about the job title, job responsibilities, required qualifications, and other relevant details. Job seekers can also apply for jobs directly through the platform.
+[![Product Name Screen Shot][product-screenshot]](https://github.com/tusharnagar17/React-Native-Job-app)
 
+React Native Job App is a mobile application designed to help job seekers find relevant job listings conveniently on their mobile devices. The app fetches job data from a free API, providing users with access to a wide range of job opportunities across various industries. With its intuitive user interface and seamless navigation, React Native Job App simplifies the job search process and empowers users to discover their next career move effortlessly.
 
-<img src="https://user-images.githubusercontent.com/97445793/226334332-dafc12d6-bdc0-42ba-bd53-d18728cfb0c3.jpeg" width="200" height="400" />
+### Key Features
 
-<img src="https://user-images.githubusercontent.com/97445793/226334372-95bb526e-f783-4189-8ea5-0be1af4fa912.jpeg" width="200" height="400" />
+-   **Job Listings:** Browse through a comprehensive list of job openings fetched from the API.
+-   **Search Functionality:** Search for specific job titles, companies, or keywords to find relevant listings.
+-   **Filtering Options:** Filter job listings based on location, job type, experience level, and more.
+-   **Save Favorites:** Save favorite job listings for future reference or apply directly within the app.
+-   **Detailed Job Descriptions:** View detailed job descriptions, including job responsibilities, requirements, and benefits.
+-   **User Authentication:** Register an account or log in securely to personalize your job search experience.
 
-<img src="https://user-images.githubusercontent.com/97445793/226334290-cfc9f53e-b1fa-4265-a887-7f0f07d7aba7.jpeg" width="200" height="400" />
+-   **Cross-platform Compatibility:** Compatible with both iOS and Android devices for maximum reach.
 
-<img src="https://user-images.githubusercontent.com/97445793/226334311-e0e66c21-8711-427e-ac34-eab928cbb246.jpeg" width="200" height="400" />
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<img src="https://user-images.githubusercontent.com/97445793/226334363-12aaa4ec-c768-43d9-8e69-2b624bf3247b.jpeg" width="200" height="400" />
+## Built With
 
+-   **React-Native**
+-   **Expo**
+-   **RAPID_API**: Free version
+<!-- GETTING STARTED -->
 
+## Getting Started
 
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-# Expo Router Example
+### Prerequisites
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+This is an example of how to list things you need to use the software and how to install them.
 
-## 🚀 How to use
+-   node.js
+-   npm
+    ```sh
+    npm install npm@latest -g
+    ```
+-   A android device with expo go app installed(whether Iphone or android)
+-   VSCode or [any code editor]
 
-```sh
-npx create-react-native-app -t with-router
-```
+### Installation
 
-## 📝 Notes
+1. Clone the repository
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
-
-## Feature
-1. A impressive front page
-2. search bar = help to search all jobs by name and location
-3. tab to filter out jobs of choice whether Fulltime, Part-time and contract based.
-4. Popular job section = listed down all popular jobs
-5. Nearby job section = filtered out nearby jobs.
-
-## Getting-Started 
-- This app is built with
-
-1. React Native
-2. Expo 
-3. Styled Component
-
-## Prerequisites
-
-List of prerequisites need to run this project
-
-- Node.js
-- npm or Yarn
-- A android device with expo go app installed(whether Iphone or android)
-- VSCode or [any code editor]
-
-## Installation
-
-1. Clone the repository 
 ```
 git clone https://github.com/tusharnagar17/React-Native-Job-app.git
 ```
+
 2. go to React-Native-Job-app
+
 ```
 cd React-Native-Job-app
 ```
 
 3. Install dependencies
+
 ```
-npm install 
-# or 
+npm install
+# or
 yarn
 ```
 
 4. Now open this app in your favourite code edior
+
 ```
 code .
 ```
 
 ## Usage
+
 1. Signup and get you api key from [JSearch RAPID-API-KEY](https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch)
 2. rename the file name `.env.example` to `.env`
 3. copy and paste the api key and put in .env file.
+
 ```
 RAPID_API_KEY='PUT_YOUR_RAPID_API_KEY_HERE'
 ```
+
 4. Run `npm install -g expo-cli`
 
 5. start you app via
+
 ```
 expo-cli start --tunnel
 ```
 
 6. Scan QR code appear on terminal with EXPO GO app on your device.
 
+<!-- CONTRIBUTING -->
 
-## Socials
-Follow me for more project like this and you can reach me at
-- [Twitter](https://twitter.com/tusharnagar_17)
-- [Linkedin](https://www.linkedin.com/in/tusharnagar17/)
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Tushar Nagar - [@twitter](https://twitter.com/tusharnagar_17) -
+
+Project Link: [@GITHUB](https://github.com/tusharnagar17/React-Native-Job-app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+-->
+
+[product-screenshot]: assets/github.jpg
+[Tailwind]: https://img.shields.io/badge/TailwindCSS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[React-url]: https://reactjs.org/
